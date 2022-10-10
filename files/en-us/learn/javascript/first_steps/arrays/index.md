@@ -303,8 +303,8 @@ Let's return to the example we described earlier — printing out product names 
 </p>
 
 <textarea id="code" class="playable-code" style="height: 410px;width: 95%">
-const list = document.querySelector('.output ul');
-const totalBox = document.querySelector('.output p');
+const list = document.querySelector('ul.output');
+const totalBox = document.querySelector('p.output');
 let total = 0;
 list.innerHTML = '';
 totalBox.textContent = '';
